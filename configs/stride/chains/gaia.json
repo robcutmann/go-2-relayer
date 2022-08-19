@@ -7,11 +7,11 @@
     "account-prefix": "cosmos",
     "keyring-backend": "test",
     "gas-adjustment": 1.2,
-    "gas-prices": "0.001uatom",
-    "debug": true,
+    "gas-prices": "0.000uatom",
+    "gas": 200000,
     "timeout": "20s",
+    "trusting-period": "8h",
     "output-format": "json",
-    "sign-mode": "direct",
-    "memo-prefix": ""
+    "sign-mode": "direct"
   }
 }
